@@ -1,0 +1,1020 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE066D2C245AFA19009A7D45 /* Never Split the Difference.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D2B245AFA19009A7D45 /* Never Split the Difference.pdf */; };
+		CE066D2E245AFAE5009A7D45 /* How to Be Great in Front of Audience.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D2D245AFAE5009A7D45 /* How to Be Great in Front of Audience.pdf */; };
+		CE066D30245AFD58009A7D45 /* How Successful People Think.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D2F245AFD58009A7D45 /* How Successful People Think.pdf */; };
+		CE066D32245AFDD1009A7D45 /* Rich Dad Poor Dad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D31245AFDD1009A7D45 /* Rich Dad Poor Dad.pdf */; };
+		CE066D34245AFEF6009A7D45 /* How to Win Friends & Influence People.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D33245AFEF6009A7D45 /* How to Win Friends & Influence People.pdf */; };
+		CE066D36245B016D009A7D45 /* The Real Book Of Real Estate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D35245B016D009A7D45 /* The Real Book Of Real Estate.pdf */; };
+		CE066D38245B01BC009A7D45 /* Think And Grow Rich.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D37245B01BC009A7D45 /* Think And Grow Rich.pdf */; };
+		CE066D3A245B0322009A7D45 /* Social Media Marketing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D39245B0322009A7D45 /* Social Media Marketing.pdf */; };
+		CE066D3D245B0AB1009A7D45 /* Zero to One,How to Build the Future.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D3C245B0AB1009A7D45 /* Zero to One,How to Build the Future.pdf */; };
+		CE066D40245B0C96009A7D45 /* Hacking For Dummies, 3rd Edition.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D3F245B0C96009A7D45 /* Hacking For Dummies, 3rd Edition.pdf */; };
+		CE066D42245B0D11009A7D45 /* HTML & CSS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D41245B0D11009A7D45 /* HTML & CSS.pdf */; };
+		CE066D44245B1029009A7D45 /* Swift Programming Language.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D43245B1029009A7D45 /* Swift Programming Language.pdf */; };
+		CE066D46245B1055009A7D45 /* JavaScript.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D45245B1055009A7D45 /* JavaScript.pdf */; };
+		CE066D48245B11CB009A7D45 /* Digital Logic And Computer Design.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D47245B11CB009A7D45 /* Digital Logic And Computer Design.pdf */; };
+		CE066D4A245B139E009A7D45 /* Beginning Android Application.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D49245B139D009A7D45 /* Beginning Android Application.pdf */; };
+		CE066D4C245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D4B245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf */; };
+		CE066D4E245B201C009A7D45 /* Building a Game with Unity and Blender.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D4D245B201C009A7D45 /* Building a Game with Unity and Blender.pdf */; };
+		CE066D50245B22EF009A7D45 /* The Power of Now.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D4F245B22EF009A7D45 /* The Power of Now.pdf */; };
+		CE066D53245B2426009A7D45 /* What on Earth Am I Here For?.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D52245B2426009A7D45 /* What on Earth Am I Here For?.pdf */; };
+		CE066D55245B279E009A7D45 /* The Power of Habit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D54245B279E009A7D45 /* The Power of Habit.pdf */; };
+		CE066D59245B28A9009A7D45 /* The 5 Second Rule,Transform your Life.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D58245B28A9009A7D45 /* The 5 Second Rule,Transform your Life.pdf */; };
+		CE066D5B245B2A35009A7D45 /* 100 Ways to Motivate Yourself, Change Your Life Forever.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D5A245B2A35009A7D45 /* 100 Ways to Motivate Yourself, Change Your Life Forever.pdf */; };
+		CE066D5D245B2E9A009A7D45 /* Living in the Light, A guide to personal transformation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D5C245B2E9A009A7D45 /* Living in the Light, A guide to personal transformation.pdf */; };
+		CE066D5F245B3037009A7D45 /* Three Mistakes of My Life.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D5E245B3037009A7D45 /* Three Mistakes of My Life.pdf */; };
+		CE066D61245B32AC009A7D45 /* Eat, Pray, Love.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D60245B32AC009A7D45 /* Eat, Pray, Love.pdf */; };
+		CE066D66245B34A7009A7D45 /* Best Practice Book for IELTS Writing.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D65245B34A7009A7D45 /* Best Practice Book for IELTS Writing.pdf */; };
+		CE066D68245B3663009A7D45 /* 101 Activities For Teaching Creativity And Problem Solving.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D67245B3663009A7D45 /* 101 Activities For Teaching Creativity And Problem Solving.pdf */; };
+		CE066D6A245B3820009A7D45 /* The Art of Public Speaking.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D69245B3820009A7D45 /* The Art of Public Speaking.pdf */; };
+		CE066D6C245B3A37009A7D45 /* How To Write Better Essays.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D6B245B3A37009A7D45 /* How To Write Better Essays.pdf */; };
+		CE066D6E245B3A91009A7D45 /* How to Study 7th Edition.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D6D245B3A91009A7D45 /* How to Study 7th Edition.pdf */; };
+		CE066D70245B3C98009A7D45 /* The Decisive Battles of World History.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D6F245B3C98009A7D45 /* The Decisive Battles of World History.pdf */; };
+		CE066D72245B3CE5009A7D45 /* Higher Engineering Mathematics 7th Edition.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D71245B3CE5009A7D45 /* Higher Engineering Mathematics 7th Edition.pdf */; };
+		CE066D74245B3E03009A7D45 /* Answers to All TOEFL Essay Questions.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D73245B3E03009A7D45 /* Answers to All TOEFL Essay Questions.pdf */; };
+		CE2D40A12456CCC300FE46BD /* TabeleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40A02456CCC300FE46BD /* TabeleCell.swift */; };
+		CE2D40A42456D95200FE46BD /* LibraBiznesKarriere.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40A32456D95200FE46BD /* LibraBiznesKarriere.swift */; };
+		CE2D40A62456EE8E00FE46BD /* LibraTeknologji.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40A52456EE8E00FE46BD /* LibraTeknologji.swift */; };
+		CE2D40C82457049300FE46BD /* LibraKonspiracion.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40C72457049300FE46BD /* LibraKonspiracion.swift */; };
+		CE2D40CA24570D4F00FE46BD /* LibraZhvillimPersonal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40C924570D4F00FE46BD /* LibraZhvillimPersonal.swift */; };
+		CE2D40CC24570FB700FE46BD /* LibraAkademike.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40CB24570FB700FE46BD /* LibraAkademike.swift */; };
+		CE2D40CE245711AD00FE46BD /* LibraShkence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40CD245711AD00FE46BD /* LibraShkence.swift */; };
+		CE2D40D0245716A800FE46BD /* LibraPsikologji.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40CF245716A800FE46BD /* LibraPsikologji.swift */; };
+		CE2D40D224571B0D00FE46BD /* LibraFitnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40D124571B0D00FE46BD /* LibraFitnes.swift */; };
+		CE2D40D424571CF900FE46BD /* LibraBiografi.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40D324571CF900FE46BD /* LibraBiografi.swift */; };
+		CE2D40D82457250700FE46BD /* LibraFetar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40D72457250700FE46BD /* LibraFetar.swift */; };
+		CE2D40DC2457325600FE46BD /* LibraAudioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40DB2457325600FE46BD /* LibraAudioCell.swift */; };
+		CE2D40DE2457332200FE46BD /* LibratAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40DD2457332200FE46BD /* LibratAudio.swift */; };
+		CE2D40E02457568600FE46BD /* LibraTeRinj.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40DF2457568600FE46BD /* LibraTeRinj.swift */; };
+		CE2D40E22457572400FE46BD /* LibraPopullor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40E12457572400FE46BD /* LibraPopullor.swift */; };
+		CE2D40E62457587C00FE46BD /* RelatedCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D40E52457587C00FE46BD /* RelatedCollectionCell.swift */; };
+		CE3293E72448DA1B000DF0FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3293E62448DA1B000DF0FF /* AppDelegate.swift */; };
+		CE3293E92448DA1B000DF0FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3293E82448DA1B000DF0FF /* SceneDelegate.swift */; };
+		CE3293EE2448DA1B000DF0FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3293EC2448DA1B000DF0FF /* Main.storyboard */; };
+		CE3293F02448DA1E000DF0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3293EF2448DA1E000DF0FF /* Assets.xcassets */; };
+		CE3293F32448DA1E000DF0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3293F12448DA1E000DF0FF /* LaunchScreen.storyboard */; };
+		CE3293FB2448DA6B000DF0FF /* FeaturesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3293FA2448DA6B000DF0FF /* FeaturesController.swift */; };
+		CE3294002448DA98000DF0FF /* ListeLibrashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3293FF2448DA98000DF0FF /* ListeLibrashModel.swift */; };
+		CE3294052448E615000DF0FF /* appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = CE3294042448E615000DF0FF /* appstore.png */; };
+		CE3294082448F805000DF0FF /* TeRejatCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3294072448F805000DF0FF /* TeRejatCollectionCell.swift */; };
+		CE4EEDA4244A141E00CCA240 /* BrowseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4EEDA3244A141E00CCA240 /* BrowseController.swift */; };
+		CE53EB3324581361004BD2E7 /* NjoftimetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB3224581361004BD2E7 /* NjoftimetController.swift */; };
+		CE53EB3A24584818004BD2E7 /* DetajeAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB3924584818004BD2E7 /* DetajeAudioController.swift */; };
+		CE53EB3E24587482004BD2E7 /* LibraAudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB3D24587482004BD2E7 /* LibraAudioModel.swift */; };
+		CE53EB4C2458AED1004BD2E7 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE53EB4B2458AED1004BD2E7 /* AlertView.swift */; };
+		CE8E0A9A245C157D0039C6FD /* Mother Teresa - A Biography.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0A99245C157D0039C6FD /* Mother Teresa - A Biography.pdf */; };
+		CE8E0A9D245C16090039C6FD /* Born a Crime, Stories from a South African Childhood.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0A9C245C16090039C6FD /* Born a Crime, Stories from a South African Childhood.pdf */; };
+		CE8E0A9F245C18810039C6FD /* Gandhi Autobiography.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0A9E245C18810039C6FD /* Gandhi Autobiography.pdf */; };
+		CE8E0AA1245C19DA0039C6FD /* Barack H. Obama, the unauthorized biography.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AA0245C19D90039C6FD /* Barack H. Obama, the unauthorized biography.pdf */; };
+		CE8E0AA3245C1CA30039C6FD /* Kant A Biography.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AA2245C1CA30039C6FD /* Kant A Biography.pdf */; };
+		CE8E0AA5245C22240039C6FD /* Subtle is the Lord, The Science and Life of Albert Einstein.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AA4245C22240039C6FD /* Subtle is the Lord, The Science and Life of Albert Einstein.pdf */; };
+		CE8E0AA7245C233F0039C6FD /* When the Moon Split A biography of Prophet Muhammad.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AA6245C233F0039C6FD /* When the Moon Split A biography of Prophet Muhammad.pdf */; };
+		CE8E0AA9245C25B30039C6FD /* The Illuminati, Facts and Fiction.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AA8245C25B30039C6FD /* The Illuminati, Facts and Fiction.pdf */; };
+		CE8E0AAC245C28AD0039C6FD /* Masonic Secrets Revealed - Secrets of the Masons.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AAB245C28AC0039C6FD /* Masonic Secrets Revealed - Secrets of the Masons.pdf */; };
+		CE8E0AAE245C2A420039C6FD /* Illuminati Card Game.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AAD245C2A420039C6FD /* Illuminati Card Game.pdf */; };
+		CE8E0AB0245C2B980039C6FD /* Secret societies of America's elite.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AAF245C2B970039C6FD /* Secret societies of America's elite.pdf */; };
+		CE8E0AB2245C2CDF0039C6FD /* The Trillion-Dollar Conspiracy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AB1245C2CDF0039C6FD /* The Trillion-Dollar Conspiracy.pdf */; };
+		CE8E0AB4245C2DCC0039C6FD /* UFOs and Aliens, Exceptional Cases of Alien Contact.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AB3245C2DCC0039C6FD /* UFOs and Aliens, Exceptional Cases of Alien Contact.pdf */; };
+		CE8E0AB6245C2F790039C6FD /* Our Occulted History - Do the Global Elite Conceal Ancient Aliens.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AB5245C2F790039C6FD /* Our Occulted History - Do the Global Elite Conceal Ancient Aliens.pdf */; };
+		CE8E0AB8245C30780039C6FD /* Absolute Key To Occult Science, The Tarot Of The Bohemians.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AB7245C30770039C6FD /* Absolute Key To Occult Science, The Tarot Of The Bohemians.pdf */; };
+		CE8E0ABA245C35680039C6FD /* No god but God, The Origins, Evolution, and Future of Islam.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AB9245C35680039C6FD /* No god but God, The Origins, Evolution, and Future of Islam.pdf */; };
+		CE8E0ABD245C370C0039C6FD /* Exceedingly Growing Faith.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0ABC245C370C0039C6FD /* Exceedingly Growing Faith.pdf */; };
+		CE8E0ABF245C388F0039C6FD /* Islam and the Future of Tolerance, A Dialogue.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0ABE245C388F0039C6FD /* Islam and the Future of Tolerance, A Dialogue.pdf */; };
+		CE8E0AC1245C3A1A0039C6FD /* Quran in English.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AC0245C3A1A0039C6FD /* Quran in English.pdf */; };
+		CE8E0AC3245C3B6D0039C6FD /* 50 People Every Christian Should Know.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AC2245C3B6D0039C6FD /* 50 People Every Christian Should Know.pdf */; };
+		CE8E0AC5245C3D810039C6FD /* Reasonable Faith.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AC4245C3D800039C6FD /* Reasonable Faith.pdf */; };
+		CE8E0AC7245C3EE40039C6FD /* I Don't Have Enough Faith to Be an Atheist.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AC6245C3EE40039C6FD /* I Don't Have Enough Faith to Be an Atheist.pdf */; };
+		CE8E0AC9245C40C60039C6FD /* PHILOSOPHY OF RELIGION.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AC8245C40C60039C6FD /* PHILOSOPHY OF RELIGION.pdf */; };
+		CE8E0ACB245C456A0039C6FD /* Social Research Methods.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0ACA245C456A0039C6FD /* Social Research Methods.pdf */; };
+		CE8E0ACE245C49190039C6FD /* Essentials of Inorganic Chemistry.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0ACD245C49190039C6FD /* Essentials of Inorganic Chemistry.pdf */; };
+		CE8E0AD0245C4A710039C6FD /* Physics Olympiad - Basic To Advanced Exercises.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0ACF245C4A710039C6FD /* Physics Olympiad - Basic To Advanced Exercises.pdf */; };
+		CE8E0AD2245C4DF60039C6FD /* 1300 Math Formulas.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AD1245C4DF50039C6FD /* 1300 Math Formulas.pdf */; };
+		CE8E0AD4245C4EED0039C6FD /* Electrical Power Systems Technology.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AD3245C4EED0039C6FD /* Electrical Power Systems Technology.pdf */; };
+		CE8E0AD6245C504F0039C6FD /* Astrophysics, Decoding the Cosmos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AD5245C504F0039C6FD /* Astrophysics, Decoding the Cosmos.pdf */; };
+		CE8E0AD8245C516F0039C6FD /* Cosmos.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE8E0AD7245C516F0039C6FD /* Cosmos.pdf */; };
+		CE8E0B0A245CADC30039C6FD /* LibraAudioPoullor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E0B09245CADC30039C6FD /* LibraAudioPoullor.swift */; };
+		CEBABDE92449BA0B00D43620 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABDE82449BA0B00D43620 /* Extensions.swift */; };
+		CEBABE182449E7DD00D43620 /* PopulloretCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABE172449E7DD00D43620 /* PopulloretCollectionCell.swift */; };
+		CEBABE1A244A04E600D43620 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBABE19244A04E600D43620 /* SearchController.swift */; };
+		CECFB5DD245AD6240097675D /* PopulloreAudioCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFB5DC245AD6240097675D /* PopulloreAudioCollectionCell.swift */; };
+		CED0DB64244AF3A9009FFAE8 /* ShprehjeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0DB63244AF3A9009FFAE8 /* ShprehjeModel.swift */; };
+		CED0DB72244B03E0009FFAE8 /* QuotesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0DB71244B03E0009FFAE8 /* QuotesController.swift */; };
+		CED0DB74244B3419009FFAE8 /* AudioBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0DB73244B3419009FFAE8 /* AudioBookController.swift */; };
+		CED0DB76244B3F6E009FFAE8 /* Konstantet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0DB75244B3F6E009FFAE8 /* Konstantet.swift */; };
+		CED0DB7A244B6290009FFAE8 /* KategoriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED0DB79244B6290009FFAE8 /* KategoriteController.swift */; };
+		CED61DF6244C6AB000A11C63 /* PDFController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED61DF5244C6AB000A11C63 /* PDFController.swift */; };
+		CED7FE09245B4570008477F4 /* The POWER of Your Subconscious Mind.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE08245B4570008477F4 /* The POWER of Your Subconscious Mind.pdf */; };
+		CED7FE0C245B4A4A008477F4 /* Body Language Secrets A Guide During Courtship & Dating.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE0B245B4A4A008477F4 /* Body Language Secrets A Guide During Courtship & Dating.pdf */; };
+		CED7FE0E245B4B00008477F4 /* Psychology - A Self-Teaching Guide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE0D245B4B00008477F4 /* Psychology - A Self-Teaching Guide.pdf */; };
+		CED7FE10245B4D2C008477F4 /* Influence, The Psychology of Persuasion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE0F245B4D2C008477F4 /* Influence, The Psychology of Persuasion.pdf */; };
+		CED7FE12245B4FCA008477F4 /* Anxiety & Depression Workbook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE11245B4FCA008477F4 /* Anxiety & Depression Workbook.pdf */; };
+		CED7FE14245B50BE008477F4 /* Mindset, The New Psychology of Success.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE13245B50BE008477F4 /* Mindset, The New Psychology of Success.pdf */; };
+		CED7FE16245B5234008477F4 /* The Road Less Traveled.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE15245B5233008477F4 /* The Road Less Traveled.pdf */; };
+		CED7FE18245B53EE008477F4 /* What Women Want In A Man.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE17245B53EE008477F4 /* What Women Want In A Man.pdf */; };
+		CED7FE1A245B5E9D008477F4 /* Your Brain On Food.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE19245B5E9D008477F4 /* Your Brain On Food.pdf */; };
+		CED7FE1D245B5F37008477F4 /* It Starts with Food.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE1C245B5F37008477F4 /* It Starts with Food.pdf */; };
+		CED7FE1F245B5F5E008477F4 /* Genius Foods, Become Smarter, Happier.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE1E245B5F5E008477F4 /* Genius Foods, Become Smarter, Happier.pdf */; };
+		CED7FE21245B6171008477F4 /* Yoga Poses, Postures & Yoga Exercises.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE20245B6171008477F4 /* Yoga Poses, Postures & Yoga Exercises.pdf */; };
+		CED7FE23245B649F008477F4 /* Essentials of Anatomy and Physiology.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE22245B649F008477F4 /* Essentials of Anatomy and Physiology.pdf */; };
+		CED7FE25245B673D008477F4 /* Eat Right for Your Metabolism.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE24245B673D008477F4 /* Eat Right for Your Metabolism.pdf */; };
+		CED7FE27245B67B1008477F4 /* Eat Right for your Type - 4 Blood Types, 4 Diets.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CED7FE26245B67B1008477F4 /* Eat Right for your Type - 4 Blood Types, 4 Diets.pdf */; };
+		CEE64FD42459A18900BF12BD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEE64FD32459A18900BF12BD /* MessageUI.framework */; };
+		CEFE7EF7245D7A31007E0B3B /* njoftimet.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEFE7EF6245D7A31007E0B3B /* njoftimet.gif */; };
+		CEFE7EF9245D7B13007E0B3B /* EmailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFE7EF8245D7B13007E0B3B /* EmailController.swift */; };
+		EF014D6A39E46C9B3C67516E /* Pods_Pocket_Library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F89DAE15D11D7BCE41B86D /* Pods_Pocket_Library.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		206BE0191935B5822B774E89 /* Pods-Pocket Library.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Library.debug.xcconfig"; path = "Target Support Files/Pods-Pocket Library/Pods-Pocket Library.debug.xcconfig"; sourceTree = "<group>"; };
+		965FF9D2EF3927DE42B98EA5 /* Pods-Pocket Library.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pocket Library.release.xcconfig"; path = "Target Support Files/Pods-Pocket Library/Pods-Pocket Library.release.xcconfig"; sourceTree = "<group>"; };
+		C4F89DAE15D11D7BCE41B86D /* Pods_Pocket_Library.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pocket_Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE066D2B245AFA19009A7D45 /* Never Split the Difference.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Never Split the Difference.pdf"; sourceTree = "<group>"; };
+		CE066D2D245AFAE5009A7D45 /* How to Be Great in Front of Audience.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How to Be Great in Front of Audience.pdf"; sourceTree = "<group>"; };
+		CE066D2F245AFD58009A7D45 /* How Successful People Think.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How Successful People Think.pdf"; sourceTree = "<group>"; };
+		CE066D31245AFDD1009A7D45 /* Rich Dad Poor Dad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rich Dad Poor Dad.pdf"; sourceTree = "<group>"; };
+		CE066D33245AFEF6009A7D45 /* How to Win Friends & Influence People.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How to Win Friends & Influence People.pdf"; sourceTree = "<group>"; };
+		CE066D35245B016D009A7D45 /* The Real Book Of Real Estate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Real Book Of Real Estate.pdf"; sourceTree = "<group>"; };
+		CE066D37245B01BC009A7D45 /* Think And Grow Rich.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Think And Grow Rich.pdf"; sourceTree = "<group>"; };
+		CE066D39245B0322009A7D45 /* Social Media Marketing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Social Media Marketing.pdf"; sourceTree = "<group>"; };
+		CE066D3C245B0AB1009A7D45 /* Zero to One,How to Build the Future.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Zero to One,How to Build the Future.pdf"; sourceTree = "<group>"; };
+		CE066D3F245B0C96009A7D45 /* Hacking For Dummies, 3rd Edition.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Hacking For Dummies, 3rd Edition.pdf"; sourceTree = "<group>"; };
+		CE066D41245B0D11009A7D45 /* HTML & CSS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "HTML & CSS.pdf"; sourceTree = "<group>"; };
+		CE066D43245B1029009A7D45 /* Swift Programming Language.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Swift Programming Language.pdf"; sourceTree = "<group>"; };
+		CE066D45245B1055009A7D45 /* JavaScript.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JavaScript.pdf; sourceTree = "<group>"; };
+		CE066D47245B11CB009A7D45 /* Digital Logic And Computer Design.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Digital Logic And Computer Design.pdf"; sourceTree = "<group>"; };
+		CE066D49245B139D009A7D45 /* Beginning Android Application.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Beginning Android Application.pdf"; sourceTree = "<group>"; };
+		CE066D4B245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CRACKING the CODING INTERVIEW.pdf"; sourceTree = "<group>"; };
+		CE066D4D245B201C009A7D45 /* Building a Game with Unity and Blender.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Building a Game with Unity and Blender.pdf"; sourceTree = "<group>"; };
+		CE066D4F245B22EF009A7D45 /* The Power of Now.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Power of Now.pdf"; sourceTree = "<group>"; };
+		CE066D52245B2426009A7D45 /* What on Earth Am I Here For?.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "What on Earth Am I Here For?.pdf"; sourceTree = "<group>"; };
+		CE066D54245B279E009A7D45 /* The Power of Habit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Power of Habit.pdf"; sourceTree = "<group>"; };
+		CE066D58245B28A9009A7D45 /* The 5 Second Rule,Transform your Life.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The 5 Second Rule,Transform your Life.pdf"; sourceTree = "<group>"; };
+		CE066D5A245B2A35009A7D45 /* 100 Ways to Motivate Yourself, Change Your Life Forever.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "100 Ways to Motivate Yourself, Change Your Life Forever.pdf"; sourceTree = "<group>"; };
+		CE066D5C245B2E9A009A7D45 /* Living in the Light, A guide to personal transformation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Living in the Light, A guide to personal transformation.pdf"; sourceTree = "<group>"; };
+		CE066D5E245B3037009A7D45 /* Three Mistakes of My Life.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Three Mistakes of My Life.pdf"; sourceTree = "<group>"; };
+		CE066D60245B32AC009A7D45 /* Eat, Pray, Love.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Eat, Pray, Love.pdf"; sourceTree = "<group>"; };
+		CE066D65245B34A7009A7D45 /* Best Practice Book for IELTS Writing.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Best Practice Book for IELTS Writing.pdf"; sourceTree = "<group>"; };
+		CE066D67245B3663009A7D45 /* 101 Activities For Teaching Creativity And Problem Solving.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "101 Activities For Teaching Creativity And Problem Solving.pdf"; sourceTree = "<group>"; };
+		CE066D69245B3820009A7D45 /* The Art of Public Speaking.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Art of Public Speaking.pdf"; sourceTree = "<group>"; };
+		CE066D6B245B3A37009A7D45 /* How To Write Better Essays.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How To Write Better Essays.pdf"; sourceTree = "<group>"; };
+		CE066D6D245B3A91009A7D45 /* How to Study 7th Edition.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "How to Study 7th Edition.pdf"; sourceTree = "<group>"; };
+		CE066D6F245B3C98009A7D45 /* The Decisive Battles of World History.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Decisive Battles of World History.pdf"; sourceTree = "<group>"; };
+		CE066D71245B3CE5009A7D45 /* Higher Engineering Mathematics 7th Edition.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Higher Engineering Mathematics 7th Edition.pdf"; sourceTree = "<group>"; };
+		CE066D73245B3E03009A7D45 /* Answers to All TOEFL Essay Questions.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Answers to All TOEFL Essay Questions.pdf"; sourceTree = "<group>"; };
+		CE2D40A02456CCC300FE46BD /* TabeleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabeleCell.swift; sourceTree = "<group>"; };
+		CE2D40A32456D95200FE46BD /* LibraBiznesKarriere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraBiznesKarriere.swift; sourceTree = "<group>"; };
+		CE2D40A52456EE8E00FE46BD /* LibraTeknologji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraTeknologji.swift; sourceTree = "<group>"; };
+		CE2D40C72457049300FE46BD /* LibraKonspiracion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraKonspiracion.swift; sourceTree = "<group>"; };
+		CE2D40C924570D4F00FE46BD /* LibraZhvillimPersonal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraZhvillimPersonal.swift; sourceTree = "<group>"; };
+		CE2D40CB24570FB700FE46BD /* LibraAkademike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraAkademike.swift; sourceTree = "<group>"; };
+		CE2D40CD245711AD00FE46BD /* LibraShkence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraShkence.swift; sourceTree = "<group>"; };
+		CE2D40CF245716A800FE46BD /* LibraPsikologji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraPsikologji.swift; sourceTree = "<group>"; };
+		CE2D40D124571B0D00FE46BD /* LibraFitnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraFitnes.swift; sourceTree = "<group>"; };
+		CE2D40D324571CF900FE46BD /* LibraBiografi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraBiografi.swift; sourceTree = "<group>"; };
+		CE2D40D72457250700FE46BD /* LibraFetar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraFetar.swift; sourceTree = "<group>"; };
+		CE2D40DB2457325600FE46BD /* LibraAudioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraAudioCell.swift; sourceTree = "<group>"; };
+		CE2D40DD2457332200FE46BD /* LibratAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibratAudio.swift; sourceTree = "<group>"; };
+		CE2D40DF2457568600FE46BD /* LibraTeRinj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraTeRinj.swift; sourceTree = "<group>"; };
+		CE2D40E12457572400FE46BD /* LibraPopullor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraPopullor.swift; sourceTree = "<group>"; };
+		CE2D40E52457587C00FE46BD /* RelatedCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelatedCollectionCell.swift; sourceTree = "<group>"; };
+		CE3293E32448DA1B000DF0FF /* Pocket Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pocket Library.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3293E62448DA1B000DF0FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3293E82448DA1B000DF0FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE3293ED2448DA1B000DF0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE3293EF2448DA1E000DF0FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE3293F22448DA1E000DF0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3293F42448DA1E000DF0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3293FA2448DA6B000DF0FF /* FeaturesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesController.swift; sourceTree = "<group>"; };
+		CE3293FF2448DA98000DF0FF /* ListeLibrashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeLibrashModel.swift; sourceTree = "<group>"; };
+		CE3294042448E615000DF0FF /* appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appstore.png; sourceTree = "<group>"; };
+		CE3294072448F805000DF0FF /* TeRejatCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeRejatCollectionCell.swift; sourceTree = "<group>"; };
+		CE4EEDA3244A141E00CCA240 /* BrowseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseController.swift; sourceTree = "<group>"; };
+		CE53EB3224581361004BD2E7 /* NjoftimetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NjoftimetController.swift; sourceTree = "<group>"; };
+		CE53EB3924584818004BD2E7 /* DetajeAudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetajeAudioController.swift; sourceTree = "<group>"; };
+		CE53EB3D24587482004BD2E7 /* LibraAudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraAudioModel.swift; sourceTree = "<group>"; };
+		CE53EB4B2458AED1004BD2E7 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		CE8E0A99245C157D0039C6FD /* Mother Teresa - A Biography.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mother Teresa - A Biography.pdf"; sourceTree = "<group>"; };
+		CE8E0A9C245C16090039C6FD /* Born a Crime, Stories from a South African Childhood.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Born a Crime, Stories from a South African Childhood.pdf"; sourceTree = "<group>"; };
+		CE8E0A9E245C18810039C6FD /* Gandhi Autobiography.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Gandhi Autobiography.pdf"; sourceTree = "<group>"; };
+		CE8E0AA0245C19D90039C6FD /* Barack H. Obama, the unauthorized biography.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Barack H. Obama, the unauthorized biography.pdf"; sourceTree = "<group>"; };
+		CE8E0AA2245C1CA30039C6FD /* Kant A Biography.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Kant A Biography.pdf"; sourceTree = "<group>"; };
+		CE8E0AA4245C22240039C6FD /* Subtle is the Lord, The Science and Life of Albert Einstein.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Subtle is the Lord, The Science and Life of Albert Einstein.pdf"; sourceTree = "<group>"; };
+		CE8E0AA6245C233F0039C6FD /* When the Moon Split A biography of Prophet Muhammad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "When the Moon Split A biography of Prophet Muhammad.pdf"; sourceTree = "<group>"; };
+		CE8E0AA8245C25B30039C6FD /* The Illuminati, Facts and Fiction.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Illuminati, Facts and Fiction.pdf"; sourceTree = "<group>"; };
+		CE8E0AAB245C28AC0039C6FD /* Masonic Secrets Revealed - Secrets of the Masons.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Masonic Secrets Revealed - Secrets of the Masons.pdf"; sourceTree = "<group>"; };
+		CE8E0AAD245C2A420039C6FD /* Illuminati Card Game.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Illuminati Card Game.pdf"; sourceTree = "<group>"; };
+		CE8E0AAF245C2B970039C6FD /* Secret societies of America's elite.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Secret societies of America's elite.pdf"; sourceTree = "<group>"; };
+		CE8E0AB1245C2CDF0039C6FD /* The Trillion-Dollar Conspiracy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Trillion-Dollar Conspiracy.pdf"; sourceTree = "<group>"; };
+		CE8E0AB3245C2DCC0039C6FD /* UFOs and Aliens, Exceptional Cases of Alien Contact.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "UFOs and Aliens, Exceptional Cases of Alien Contact.pdf"; sourceTree = "<group>"; };
+		CE8E0AB5245C2F790039C6FD /* Our Occulted History - Do the Global Elite Conceal Ancient Aliens.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Our Occulted History - Do the Global Elite Conceal Ancient Aliens.pdf"; sourceTree = "<group>"; };
+		CE8E0AB7245C30770039C6FD /* Absolute Key To Occult Science, The Tarot Of The Bohemians.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Absolute Key To Occult Science, The Tarot Of The Bohemians.pdf"; sourceTree = "<group>"; };
+		CE8E0AB9245C35680039C6FD /* No god but God, The Origins, Evolution, and Future of Islam.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "No god but God, The Origins, Evolution, and Future of Islam.pdf"; sourceTree = "<group>"; };
+		CE8E0ABC245C370C0039C6FD /* Exceedingly Growing Faith.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Exceedingly Growing Faith.pdf"; sourceTree = "<group>"; };
+		CE8E0ABE245C388F0039C6FD /* Islam and the Future of Tolerance, A Dialogue.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Islam and the Future of Tolerance, A Dialogue.pdf"; sourceTree = "<group>"; };
+		CE8E0AC0245C3A1A0039C6FD /* Quran in English.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Quran in English.pdf"; sourceTree = "<group>"; };
+		CE8E0AC2245C3B6D0039C6FD /* 50 People Every Christian Should Know.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "50 People Every Christian Should Know.pdf"; sourceTree = "<group>"; };
+		CE8E0AC4245C3D800039C6FD /* Reasonable Faith.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Reasonable Faith.pdf"; sourceTree = "<group>"; };
+		CE8E0AC6245C3EE40039C6FD /* I Don't Have Enough Faith to Be an Atheist.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "I Don't Have Enough Faith to Be an Atheist.pdf"; sourceTree = "<group>"; };
+		CE8E0AC8245C40C60039C6FD /* PHILOSOPHY OF RELIGION.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "PHILOSOPHY OF RELIGION.pdf"; sourceTree = "<group>"; };
+		CE8E0ACA245C456A0039C6FD /* Social Research Methods.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Social Research Methods.pdf"; sourceTree = "<group>"; };
+		CE8E0ACD245C49190039C6FD /* Essentials of Inorganic Chemistry.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Essentials of Inorganic Chemistry.pdf"; sourceTree = "<group>"; };
+		CE8E0ACF245C4A710039C6FD /* Physics Olympiad - Basic To Advanced Exercises.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Physics Olympiad - Basic To Advanced Exercises.pdf"; sourceTree = "<group>"; };
+		CE8E0AD1245C4DF50039C6FD /* 1300 Math Formulas.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "1300 Math Formulas.pdf"; sourceTree = "<group>"; };
+		CE8E0AD3245C4EED0039C6FD /* Electrical Power Systems Technology.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Electrical Power Systems Technology.pdf"; sourceTree = "<group>"; };
+		CE8E0AD5245C504F0039C6FD /* Astrophysics, Decoding the Cosmos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Astrophysics, Decoding the Cosmos.pdf"; sourceTree = "<group>"; };
+		CE8E0AD7245C516F0039C6FD /* Cosmos.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Cosmos.pdf; sourceTree = "<group>"; };
+		CE8E0B09245CADC30039C6FD /* LibraAudioPoullor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraAudioPoullor.swift; sourceTree = "<group>"; };
+		CEBABDE82449BA0B00D43620 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CEBABE172449E7DD00D43620 /* PopulloretCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulloretCollectionCell.swift; sourceTree = "<group>"; };
+		CEBABE19244A04E600D43620 /* SearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		CECFB5DC245AD6240097675D /* PopulloreAudioCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopulloreAudioCollectionCell.swift; sourceTree = "<group>"; };
+		CED0DB63244AF3A9009FFAE8 /* ShprehjeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShprehjeModel.swift; sourceTree = "<group>"; };
+		CED0DB71244B03E0009FFAE8 /* QuotesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesController.swift; sourceTree = "<group>"; };
+		CED0DB73244B3419009FFAE8 /* AudioBookController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBookController.swift; sourceTree = "<group>"; };
+		CED0DB75244B3F6E009FFAE8 /* Konstantet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Konstantet.swift; sourceTree = "<group>"; };
+		CED0DB79244B6290009FFAE8 /* KategoriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriteController.swift; sourceTree = "<group>"; };
+		CED61DF5244C6AB000A11C63 /* PDFController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFController.swift; sourceTree = "<group>"; };
+		CED7FE08245B4570008477F4 /* The POWER of Your Subconscious Mind.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The POWER of Your Subconscious Mind.pdf"; sourceTree = "<group>"; };
+		CED7FE0B245B4A4A008477F4 /* Body Language Secrets A Guide During Courtship & Dating.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Body Language Secrets A Guide During Courtship & Dating.pdf"; sourceTree = "<group>"; };
+		CED7FE0D245B4B00008477F4 /* Psychology - A Self-Teaching Guide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Psychology - A Self-Teaching Guide.pdf"; sourceTree = "<group>"; };
+		CED7FE0F245B4D2C008477F4 /* Influence, The Psychology of Persuasion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Influence, The Psychology of Persuasion.pdf"; sourceTree = "<group>"; };
+		CED7FE11245B4FCA008477F4 /* Anxiety & Depression Workbook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Anxiety & Depression Workbook.pdf"; sourceTree = "<group>"; };
+		CED7FE13245B50BE008477F4 /* Mindset, The New Psychology of Success.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Mindset, The New Psychology of Success.pdf"; sourceTree = "<group>"; };
+		CED7FE15245B5233008477F4 /* The Road Less Traveled.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Road Less Traveled.pdf"; sourceTree = "<group>"; };
+		CED7FE17245B53EE008477F4 /* What Women Want In A Man.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "What Women Want In A Man.pdf"; sourceTree = "<group>"; };
+		CED7FE19245B5E9D008477F4 /* Your Brain On Food.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Your Brain On Food.pdf"; sourceTree = "<group>"; };
+		CED7FE1C245B5F37008477F4 /* It Starts with Food.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "It Starts with Food.pdf"; sourceTree = "<group>"; };
+		CED7FE1E245B5F5E008477F4 /* Genius Foods, Become Smarter, Happier.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Genius Foods, Become Smarter, Happier.pdf"; sourceTree = "<group>"; };
+		CED7FE20245B6171008477F4 /* Yoga Poses, Postures & Yoga Exercises.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Yoga Poses, Postures & Yoga Exercises.pdf"; sourceTree = "<group>"; };
+		CED7FE22245B649F008477F4 /* Essentials of Anatomy and Physiology.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Essentials of Anatomy and Physiology.pdf"; sourceTree = "<group>"; };
+		CED7FE24245B673D008477F4 /* Eat Right for Your Metabolism.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Eat Right for Your Metabolism.pdf"; sourceTree = "<group>"; };
+		CED7FE26245B67B1008477F4 /* Eat Right for your Type - 4 Blood Types, 4 Diets.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Eat Right for your Type - 4 Blood Types, 4 Diets.pdf"; sourceTree = "<group>"; };
+		CEE64FD32459A18900BF12BD /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CEFE7EF6245D7A31007E0B3B /* njoftimet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = njoftimet.gif; sourceTree = "<group>"; };
+		CEFE7EF8245D7B13007E0B3B /* EmailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3293E02448DA1B000DF0FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE64FD42459A18900BF12BD /* MessageUI.framework in Frameworks */,
+				EF014D6A39E46C9B3C67516E /* Pods_Pocket_Library.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53150B22A64B7774D28CE32A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEE64FD32459A18900BF12BD /* MessageUI.framework */,
+				C4F89DAE15D11D7BCE41B86D /* Pods_Pocket_Library.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A355444B81550E9993EB619B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				206BE0191935B5822B774E89 /* Pods-Pocket Library.debug.xcconfig */,
+				965FF9D2EF3927DE42B98EA5 /* Pods-Pocket Library.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE066D26245AF7AA009A7D45 /* Libra PDF */ = {
+			isa = PBXGroup;
+			children = (
+				CE066D3E245B0AB4009A7D45 /* Teknologji */,
+				CE066D2A245AF832009A7D45 /* Biznes & Karriere */,
+				CE066D51245B22F2009A7D45 /* Zhvillim Personal */,
+				CE066D64245B3463009A7D45 /* Akademike */,
+				CED7FE1B245B5EA0008477F4 /* Fitnes */,
+				CED7FE0A245B4573008477F4 /* Psikologji */,
+				CE8E0A9B245C15800039C6FD /* Biografi */,
+				CE8E0AAA245C25B60039C6FD /* Konspiracion */,
+				CE8E0ABB245C356C0039C6FD /* Fetar */,
+				CE8E0ACC245C45740039C6FD /* Shkence */,
+			);
+			name = "Libra PDF";
+			sourceTree = "<group>";
+		};
+		CE066D2A245AF832009A7D45 /* Biznes & Karriere */ = {
+			isa = PBXGroup;
+			children = (
+				CE066D2B245AFA19009A7D45 /* Never Split the Difference.pdf */,
+				CE066D2D245AFAE5009A7D45 /* How to Be Great in Front of Audience.pdf */,
+				CE066D31245AFDD1009A7D45 /* Rich Dad Poor Dad.pdf */,
+				CE066D2F245AFD58009A7D45 /* How Successful People Think.pdf */,
+				CE066D37245B01BC009A7D45 /* Think And Grow Rich.pdf */,
+				CE066D35245B016D009A7D45 /* The Real Book Of Real Estate.pdf */,
+				CE066D39245B0322009A7D45 /* Social Media Marketing.pdf */,
+				CE066D33245AFEF6009A7D45 /* How to Win Friends & Influence People.pdf */,
+			);
+			name = "Biznes & Karriere";
+			sourceTree = "<group>";
+		};
+		CE066D3E245B0AB4009A7D45 /* Teknologji */ = {
+			isa = PBXGroup;
+			children = (
+				CE066D3C245B0AB1009A7D45 /* Zero to One,How to Build the Future.pdf */,
+				CE066D3F245B0C96009A7D45 /* Hacking For Dummies, 3rd Edition.pdf */,
+				CE066D45245B1055009A7D45 /* JavaScript.pdf */,
+				CE066D4B245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf */,
+				CE066D49245B139D009A7D45 /* Beginning Android Application.pdf */,
+				CE066D4D245B201C009A7D45 /* Building a Game with Unity and Blender.pdf */,
+				CE066D41245B0D11009A7D45 /* HTML & CSS.pdf */,
+				CE066D47245B11CB009A7D45 /* Digital Logic And Computer Design.pdf */,
+				CE066D43245B1029009A7D45 /* Swift Programming Language.pdf */,
+			);
+			name = Teknologji;
+			sourceTree = "<group>";
+		};
+		CE066D51245B22F2009A7D45 /* Zhvillim Personal */ = {
+			isa = PBXGroup;
+			children = (
+				CE066D4F245B22EF009A7D45 /* The Power of Now.pdf */,
+				CE066D52245B2426009A7D45 /* What on Earth Am I Here For?.pdf */,
+				CE066D54245B279E009A7D45 /* The Power of Habit.pdf */,
+				CE066D58245B28A9009A7D45 /* The 5 Second Rule,Transform your Life.pdf */,
+				CE066D5C245B2E9A009A7D45 /* Living in the Light, A guide to personal transformation.pdf */,
+				CE066D5E245B3037009A7D45 /* Three Mistakes of My Life.pdf */,
+				CE066D5A245B2A35009A7D45 /* 100 Ways to Motivate Yourself, Change Your Life Forever.pdf */,
+				CE066D60245B32AC009A7D45 /* Eat, Pray, Love.pdf */,
+			);
+			name = "Zhvillim Personal";
+			sourceTree = "<group>";
+		};
+		CE066D64245B3463009A7D45 /* Akademike */ = {
+			isa = PBXGroup;
+			children = (
+				CE066D65245B34A7009A7D45 /* Best Practice Book for IELTS Writing.pdf */,
+				CE066D69245B3820009A7D45 /* The Art of Public Speaking.pdf */,
+				CE066D6D245B3A91009A7D45 /* How to Study 7th Edition.pdf */,
+				CE066D67245B3663009A7D45 /* 101 Activities For Teaching Creativity And Problem Solving.pdf */,
+				CE066D71245B3CE5009A7D45 /* Higher Engineering Mathematics 7th Edition.pdf */,
+				CE066D6B245B3A37009A7D45 /* How To Write Better Essays.pdf */,
+				CE066D73245B3E03009A7D45 /* Answers to All TOEFL Essay Questions.pdf */,
+				CE066D6F245B3C98009A7D45 /* The Decisive Battles of World History.pdf */,
+			);
+			name = Akademike;
+			sourceTree = "<group>";
+		};
+		CE2D40A22456D8C600FE46BD /* Kategorite e Librave */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D40A32456D95200FE46BD /* LibraBiznesKarriere.swift */,
+				CE2D40A52456EE8E00FE46BD /* LibraTeknologji.swift */,
+				CE2D40C72457049300FE46BD /* LibraKonspiracion.swift */,
+				CE2D40C924570D4F00FE46BD /* LibraZhvillimPersonal.swift */,
+				CE2D40CB24570FB700FE46BD /* LibraAkademike.swift */,
+				CE2D40CD245711AD00FE46BD /* LibraShkence.swift */,
+				CE2D40CF245716A800FE46BD /* LibraPsikologji.swift */,
+				CE2D40D124571B0D00FE46BD /* LibraFitnes.swift */,
+				CE2D40D324571CF900FE46BD /* LibraBiografi.swift */,
+				CE2D40D72457250700FE46BD /* LibraFetar.swift */,
+				CE2D40DD2457332200FE46BD /* LibratAudio.swift */,
+				CE2D40DF2457568600FE46BD /* LibraTeRinj.swift */,
+				CE2D40E12457572400FE46BD /* LibraPopullor.swift */,
+				CE8E0B09245CADC30039C6FD /* LibraAudioPoullor.swift */,
+			);
+			name = "Kategorite e Librave";
+			sourceTree = "<group>";
+		};
+		CE3293DA2448DA1B000DF0FF = {
+			isa = PBXGroup;
+			children = (
+				CE3293E52448DA1B000DF0FF /* Pocket Library */,
+				CE3294012448E29F000DF0FF /* AppStore */,
+				CE3293E42448DA1B000DF0FF /* Products */,
+				A355444B81550E9993EB619B /* Pods */,
+				53150B22A64B7774D28CE32A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3293E42448DA1B000DF0FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3293E32448DA1B000DF0FF /* Pocket Library.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3293E52448DA1B000DF0FF /* Pocket Library */ = {
+			isa = PBXGroup;
+			children = (
+				CE3293E62448DA1B000DF0FF /* AppDelegate.swift */,
+				CE3293E82448DA1B000DF0FF /* SceneDelegate.swift */,
+				CE3293FE2448DA88000DF0FF /* Model */,
+				CE3293FC2448DA74000DF0FF /* View */,
+				CE3293FD2448DA7A000DF0FF /* Controller */,
+				CE2D40A22456D8C600FE46BD /* Kategorite e Librave */,
+				CE3294062448F7E0000DF0FF /* Cell */,
+				CE066D26245AF7AA009A7D45 /* Libra PDF */,
+				CEBABDE72449B9E900D43620 /* Extensions */,
+				CED0DB75244B3F6E009FFAE8 /* Konstantet.swift */,
+				CEFE7EF6245D7A31007E0B3B /* njoftimet.gif */,
+				CE3293EF2448DA1E000DF0FF /* Assets.xcassets */,
+				CE3293F12448DA1E000DF0FF /* LaunchScreen.storyboard */,
+				CE3293F42448DA1E000DF0FF /* Info.plist */,
+			);
+			path = "Pocket Library";
+			sourceTree = "<group>";
+		};
+		CE3293FC2448DA74000DF0FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE53EB4B2458AED1004BD2E7 /* AlertView.swift */,
+				CE3293EC2448DA1B000DF0FF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE3293FD2448DA7A000DF0FF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE3293FA2448DA6B000DF0FF /* FeaturesController.swift */,
+				CED0DB71244B03E0009FFAE8 /* QuotesController.swift */,
+				CED0DB73244B3419009FFAE8 /* AudioBookController.swift */,
+				CE4EEDA3244A141E00CCA240 /* BrowseController.swift */,
+				CEBABE19244A04E600D43620 /* SearchController.swift */,
+				CED0DB79244B6290009FFAE8 /* KategoriteController.swift */,
+				CED61DF5244C6AB000A11C63 /* PDFController.swift */,
+				CE53EB3224581361004BD2E7 /* NjoftimetController.swift */,
+				CE53EB3924584818004BD2E7 /* DetajeAudioController.swift */,
+				CEFE7EF8245D7B13007E0B3B /* EmailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE3293FE2448DA88000DF0FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE3293FF2448DA98000DF0FF /* ListeLibrashModel.swift */,
+				CE53EB3D24587482004BD2E7 /* LibraAudioModel.swift */,
+				CED0DB63244AF3A9009FFAE8 /* ShprehjeModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE3294012448E29F000DF0FF /* AppStore */ = {
+			isa = PBXGroup;
+			children = (
+				CE3294042448E615000DF0FF /* appstore.png */,
+			);
+			name = AppStore;
+			path = "Pocket Library";
+			sourceTree = "<group>";
+		};
+		CE3294062448F7E0000DF0FF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE3294072448F805000DF0FF /* TeRejatCollectionCell.swift */,
+				CEBABE172449E7DD00D43620 /* PopulloretCollectionCell.swift */,
+				CECFB5DC245AD6240097675D /* PopulloreAudioCollectionCell.swift */,
+				CE2D40A02456CCC300FE46BD /* TabeleCell.swift */,
+				CE2D40DB2457325600FE46BD /* LibraAudioCell.swift */,
+				CE2D40E52457587C00FE46BD /* RelatedCollectionCell.swift */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		CE8E0A9B245C15800039C6FD /* Biografi */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E0A99245C157D0039C6FD /* Mother Teresa - A Biography.pdf */,
+				CE8E0A9C245C16090039C6FD /* Born a Crime, Stories from a South African Childhood.pdf */,
+				CE8E0A9E245C18810039C6FD /* Gandhi Autobiography.pdf */,
+				CE8E0AA0245C19D90039C6FD /* Barack H. Obama, the unauthorized biography.pdf */,
+				CE8E0AA4245C22240039C6FD /* Subtle is the Lord, The Science and Life of Albert Einstein.pdf */,
+				CE8E0AA2245C1CA30039C6FD /* Kant A Biography.pdf */,
+				CE8E0AA6245C233F0039C6FD /* When the Moon Split A biography of Prophet Muhammad.pdf */,
+			);
+			name = Biografi;
+			sourceTree = "<group>";
+		};
+		CE8E0AAA245C25B60039C6FD /* Konspiracion */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E0AA8245C25B30039C6FD /* The Illuminati, Facts and Fiction.pdf */,
+				CE8E0AAB245C28AC0039C6FD /* Masonic Secrets Revealed - Secrets of the Masons.pdf */,
+				CE8E0AAD245C2A420039C6FD /* Illuminati Card Game.pdf */,
+				CE8E0AAF245C2B970039C6FD /* Secret societies of America's elite.pdf */,
+				CE8E0AB1245C2CDF0039C6FD /* The Trillion-Dollar Conspiracy.pdf */,
+				CE8E0AB3245C2DCC0039C6FD /* UFOs and Aliens, Exceptional Cases of Alien Contact.pdf */,
+				CE8E0AB5245C2F790039C6FD /* Our Occulted History - Do the Global Elite Conceal Ancient Aliens.pdf */,
+				CE8E0AB7245C30770039C6FD /* Absolute Key To Occult Science, The Tarot Of The Bohemians.pdf */,
+			);
+			name = Konspiracion;
+			sourceTree = "<group>";
+		};
+		CE8E0ABB245C356C0039C6FD /* Fetar */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E0AB9245C35680039C6FD /* No god but God, The Origins, Evolution, and Future of Islam.pdf */,
+				CE8E0ABC245C370C0039C6FD /* Exceedingly Growing Faith.pdf */,
+				CE8E0ABE245C388F0039C6FD /* Islam and the Future of Tolerance, A Dialogue.pdf */,
+				CE8E0AC0245C3A1A0039C6FD /* Quran in English.pdf */,
+				CE8E0AC2245C3B6D0039C6FD /* 50 People Every Christian Should Know.pdf */,
+				CE8E0AC4245C3D800039C6FD /* Reasonable Faith.pdf */,
+				CE8E0AC6245C3EE40039C6FD /* I Don't Have Enough Faith to Be an Atheist.pdf */,
+				CE8E0AC8245C40C60039C6FD /* PHILOSOPHY OF RELIGION.pdf */,
+			);
+			name = Fetar;
+			sourceTree = "<group>";
+		};
+		CE8E0ACC245C45740039C6FD /* Shkence */ = {
+			isa = PBXGroup;
+			children = (
+				CE8E0ACA245C456A0039C6FD /* Social Research Methods.pdf */,
+				CE8E0ACD245C49190039C6FD /* Essentials of Inorganic Chemistry.pdf */,
+				CE8E0ACF245C4A710039C6FD /* Physics Olympiad - Basic To Advanced Exercises.pdf */,
+				CE8E0AD1245C4DF50039C6FD /* 1300 Math Formulas.pdf */,
+				CE8E0AD3245C4EED0039C6FD /* Electrical Power Systems Technology.pdf */,
+				CE8E0AD5245C504F0039C6FD /* Astrophysics, Decoding the Cosmos.pdf */,
+				CE8E0AD7245C516F0039C6FD /* Cosmos.pdf */,
+			);
+			name = Shkence;
+			sourceTree = "<group>";
+		};
+		CEBABDE72449B9E900D43620 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CEBABDE82449BA0B00D43620 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CED7FE0A245B4573008477F4 /* Psikologji */ = {
+			isa = PBXGroup;
+			children = (
+				CED7FE08245B4570008477F4 /* The POWER of Your Subconscious Mind.pdf */,
+				CED7FE0B245B4A4A008477F4 /* Body Language Secrets A Guide During Courtship & Dating.pdf */,
+				CED7FE0D245B4B00008477F4 /* Psychology - A Self-Teaching Guide.pdf */,
+				CED7FE0F245B4D2C008477F4 /* Influence, The Psychology of Persuasion.pdf */,
+				CED7FE11245B4FCA008477F4 /* Anxiety & Depression Workbook.pdf */,
+				CED7FE13245B50BE008477F4 /* Mindset, The New Psychology of Success.pdf */,
+				CED7FE15245B5233008477F4 /* The Road Less Traveled.pdf */,
+				CED7FE17245B53EE008477F4 /* What Women Want In A Man.pdf */,
+			);
+			name = Psikologji;
+			sourceTree = "<group>";
+		};
+		CED7FE1B245B5EA0008477F4 /* Fitnes */ = {
+			isa = PBXGroup;
+			children = (
+				CED7FE1E245B5F5E008477F4 /* Genius Foods, Become Smarter, Happier.pdf */,
+				CED7FE1C245B5F37008477F4 /* It Starts with Food.pdf */,
+				CED7FE19245B5E9D008477F4 /* Your Brain On Food.pdf */,
+				CED7FE20245B6171008477F4 /* Yoga Poses, Postures & Yoga Exercises.pdf */,
+				CED7FE22245B649F008477F4 /* Essentials of Anatomy and Physiology.pdf */,
+				CED7FE26245B67B1008477F4 /* Eat Right for your Type - 4 Blood Types, 4 Diets.pdf */,
+				CED7FE24245B673D008477F4 /* Eat Right for Your Metabolism.pdf */,
+			);
+			name = Fitnes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3293E22448DA1B000DF0FF /* Pocket Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3293F72448DA1E000DF0FF /* Build configuration list for PBXNativeTarget "Pocket Library" */;
+			buildPhases = (
+				6F798D858913BD626D59DCEA /* [CP] Check Pods Manifest.lock */,
+				CE3293DF2448DA1B000DF0FF /* Sources */,
+				CE3293E02448DA1B000DF0FF /* Frameworks */,
+				CE3293E12448DA1B000DF0FF /* Resources */,
+				FF61B095C241B0A586D40214 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pocket Library";
+			productName = "Pocket Library";
+			productReference = CE3293E32448DA1B000DF0FF /* Pocket Library.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3293DB2448DA1B000DF0FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Geri nuraj";
+				TargetAttributes = {
+					CE3293E22448DA1B000DF0FF = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = CE3293DE2448DA1B000DF0FF /* Build configuration list for PBXProject "Pocket Library" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3293DA2448DA1B000DF0FF;
+			productRefGroup = CE3293E42448DA1B000DF0FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3293E22448DA1B000DF0FF /* Pocket Library */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3293E12448DA1B000DF0FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE066D2C245AFA19009A7D45 /* Never Split the Difference.pdf in Resources */,
+				CED7FE09245B4570008477F4 /* The POWER of Your Subconscious Mind.pdf in Resources */,
+				CE8E0AC5245C3D810039C6FD /* Reasonable Faith.pdf in Resources */,
+				CE066D55245B279E009A7D45 /* The Power of Habit.pdf in Resources */,
+				CE066D5D245B2E9A009A7D45 /* Living in the Light, A guide to personal transformation.pdf in Resources */,
+				CE066D50245B22EF009A7D45 /* The Power of Now.pdf in Resources */,
+				CE066D66245B34A7009A7D45 /* Best Practice Book for IELTS Writing.pdf in Resources */,
+				CE8E0AB4245C2DCC0039C6FD /* UFOs and Aliens, Exceptional Cases of Alien Contact.pdf in Resources */,
+				CE8E0AD4245C4EED0039C6FD /* Electrical Power Systems Technology.pdf in Resources */,
+				CE8E0AA5245C22240039C6FD /* Subtle is the Lord, The Science and Life of Albert Einstein.pdf in Resources */,
+				CED7FE14245B50BE008477F4 /* Mindset, The New Psychology of Success.pdf in Resources */,
+				CE066D30245AFD58009A7D45 /* How Successful People Think.pdf in Resources */,
+				CE066D38245B01BC009A7D45 /* Think And Grow Rich.pdf in Resources */,
+				CE8E0AC9245C40C60039C6FD /* PHILOSOPHY OF RELIGION.pdf in Resources */,
+				CE8E0AB0245C2B980039C6FD /* Secret societies of America's elite.pdf in Resources */,
+				CE8E0A9A245C157D0039C6FD /* Mother Teresa - A Biography.pdf in Resources */,
+				CE066D6E245B3A91009A7D45 /* How to Study 7th Edition.pdf in Resources */,
+				CE8E0A9F245C18810039C6FD /* Gandhi Autobiography.pdf in Resources */,
+				CE066D3D245B0AB1009A7D45 /* Zero to One,How to Build the Future.pdf in Resources */,
+				CE8E0AA9245C25B30039C6FD /* The Illuminati, Facts and Fiction.pdf in Resources */,
+				CED7FE16245B5234008477F4 /* The Road Less Traveled.pdf in Resources */,
+				CE066D61245B32AC009A7D45 /* Eat, Pray, Love.pdf in Resources */,
+				CE8E0ABF245C388F0039C6FD /* Islam and the Future of Tolerance, A Dialogue.pdf in Resources */,
+				CE066D6C245B3A37009A7D45 /* How To Write Better Essays.pdf in Resources */,
+				CE066D34245AFEF6009A7D45 /* How to Win Friends & Influence People.pdf in Resources */,
+				CE066D32245AFDD1009A7D45 /* Rich Dad Poor Dad.pdf in Resources */,
+				CED7FE1D245B5F37008477F4 /* It Starts with Food.pdf in Resources */,
+				CE8E0AB2245C2CDF0039C6FD /* The Trillion-Dollar Conspiracy.pdf in Resources */,
+				CE8E0AC3245C3B6D0039C6FD /* 50 People Every Christian Should Know.pdf in Resources */,
+				CED7FE1F245B5F5E008477F4 /* Genius Foods, Become Smarter, Happier.pdf in Resources */,
+				CEFE7EF7245D7A31007E0B3B /* njoftimet.gif in Resources */,
+				CE8E0ABA245C35680039C6FD /* No god but God, The Origins, Evolution, and Future of Islam.pdf in Resources */,
+				CE8E0AC1245C3A1A0039C6FD /* Quran in English.pdf in Resources */,
+				CE8E0AD2245C4DF60039C6FD /* 1300 Math Formulas.pdf in Resources */,
+				CED7FE18245B53EE008477F4 /* What Women Want In A Man.pdf in Resources */,
+				CE8E0ABD245C370C0039C6FD /* Exceedingly Growing Faith.pdf in Resources */,
+				CE066D5F245B3037009A7D45 /* Three Mistakes of My Life.pdf in Resources */,
+				CE8E0AAE245C2A420039C6FD /* Illuminati Card Game.pdf in Resources */,
+				CE8E0AD0245C4A710039C6FD /* Physics Olympiad - Basic To Advanced Exercises.pdf in Resources */,
+				CE8E0AC7245C3EE40039C6FD /* I Don't Have Enough Faith to Be an Atheist.pdf in Resources */,
+				CE3293F32448DA1E000DF0FF /* LaunchScreen.storyboard in Resources */,
+				CE066D72245B3CE5009A7D45 /* Higher Engineering Mathematics 7th Edition.pdf in Resources */,
+				CE8E0AA3245C1CA30039C6FD /* Kant A Biography.pdf in Resources */,
+				CE066D68245B3663009A7D45 /* 101 Activities For Teaching Creativity And Problem Solving.pdf in Resources */,
+				CED7FE10245B4D2C008477F4 /* Influence, The Psychology of Persuasion.pdf in Resources */,
+				CE066D42245B0D11009A7D45 /* HTML & CSS.pdf in Resources */,
+				CE066D59245B28A9009A7D45 /* The 5 Second Rule,Transform your Life.pdf in Resources */,
+				CE3294052448E615000DF0FF /* appstore.png in Resources */,
+				CE8E0AA7245C233F0039C6FD /* When the Moon Split A biography of Prophet Muhammad.pdf in Resources */,
+				CE066D74245B3E03009A7D45 /* Answers to All TOEFL Essay Questions.pdf in Resources */,
+				CE066D2E245AFAE5009A7D45 /* How to Be Great in Front of Audience.pdf in Resources */,
+				CE8E0ACB245C456A0039C6FD /* Social Research Methods.pdf in Resources */,
+				CE8E0ACE245C49190039C6FD /* Essentials of Inorganic Chemistry.pdf in Resources */,
+				CE066D44245B1029009A7D45 /* Swift Programming Language.pdf in Resources */,
+				CE066D53245B2426009A7D45 /* What on Earth Am I Here For?.pdf in Resources */,
+				CE8E0AD8245C516F0039C6FD /* Cosmos.pdf in Resources */,
+				CE066D6A245B3820009A7D45 /* The Art of Public Speaking.pdf in Resources */,
+				CE3293F02448DA1E000DF0FF /* Assets.xcassets in Resources */,
+				CE066D70245B3C98009A7D45 /* The Decisive Battles of World History.pdf in Resources */,
+				CE066D4A245B139E009A7D45 /* Beginning Android Application.pdf in Resources */,
+				CED7FE0E245B4B00008477F4 /* Psychology - A Self-Teaching Guide.pdf in Resources */,
+				CE066D3A245B0322009A7D45 /* Social Media Marketing.pdf in Resources */,
+				CED7FE25245B673D008477F4 /* Eat Right for Your Metabolism.pdf in Resources */,
+				CE8E0A9D245C16090039C6FD /* Born a Crime, Stories from a South African Childhood.pdf in Resources */,
+				CE066D48245B11CB009A7D45 /* Digital Logic And Computer Design.pdf in Resources */,
+				CED7FE27245B67B1008477F4 /* Eat Right for your Type - 4 Blood Types, 4 Diets.pdf in Resources */,
+				CE066D36245B016D009A7D45 /* The Real Book Of Real Estate.pdf in Resources */,
+				CED7FE23245B649F008477F4 /* Essentials of Anatomy and Physiology.pdf in Resources */,
+				CE8E0AA1245C19DA0039C6FD /* Barack H. Obama, the unauthorized biography.pdf in Resources */,
+				CE066D4E245B201C009A7D45 /* Building a Game with Unity and Blender.pdf in Resources */,
+				CE066D5B245B2A35009A7D45 /* 100 Ways to Motivate Yourself, Change Your Life Forever.pdf in Resources */,
+				CE8E0AB6245C2F790039C6FD /* Our Occulted History - Do the Global Elite Conceal Ancient Aliens.pdf in Resources */,
+				CE8E0AD6245C504F0039C6FD /* Astrophysics, Decoding the Cosmos.pdf in Resources */,
+				CE3293EE2448DA1B000DF0FF /* Main.storyboard in Resources */,
+				CED7FE12245B4FCA008477F4 /* Anxiety & Depression Workbook.pdf in Resources */,
+				CE066D40245B0C96009A7D45 /* Hacking For Dummies, 3rd Edition.pdf in Resources */,
+				CE066D46245B1055009A7D45 /* JavaScript.pdf in Resources */,
+				CE8E0AAC245C28AD0039C6FD /* Masonic Secrets Revealed - Secrets of the Masons.pdf in Resources */,
+				CE8E0AB8245C30780039C6FD /* Absolute Key To Occult Science, The Tarot Of The Bohemians.pdf in Resources */,
+				CE066D4C245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf in Resources */,
+				CED7FE21245B6171008477F4 /* Yoga Poses, Postures & Yoga Exercises.pdf in Resources */,
+				CED7FE1A245B5E9D008477F4 /* Your Brain On Food.pdf in Resources */,
+				CED7FE0C245B4A4A008477F4 /* Body Language Secrets A Guide During Courtship & Dating.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F798D858913BD626D59DCEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pocket Library-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF61B095C241B0A586D40214 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pocket Library/Pods-Pocket Library-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pocket Library/Pods-Pocket Library-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pocket Library/Pods-Pocket Library-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3293DF2448DA1B000DF0FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE53EB3A24584818004BD2E7 /* DetajeAudioController.swift in Sources */,
+				CE3293E72448DA1B000DF0FF /* AppDelegate.swift in Sources */,
+				CEBABDE92449BA0B00D43620 /* Extensions.swift in Sources */,
+				CE2D40A12456CCC300FE46BD /* TabeleCell.swift in Sources */,
+				CE2D40CA24570D4F00FE46BD /* LibraZhvillimPersonal.swift in Sources */,
+				CE8E0B0A245CADC30039C6FD /* LibraAudioPoullor.swift in Sources */,
+				CEFE7EF9245D7B13007E0B3B /* EmailController.swift in Sources */,
+				CED0DB7A244B6290009FFAE8 /* KategoriteController.swift in Sources */,
+				CE2D40E02457568600FE46BD /* LibraTeRinj.swift in Sources */,
+				CE53EB3E24587482004BD2E7 /* LibraAudioModel.swift in Sources */,
+				CE2D40D82457250700FE46BD /* LibraFetar.swift in Sources */,
+				CE2D40C82457049300FE46BD /* LibraKonspiracion.swift in Sources */,
+				CE53EB3324581361004BD2E7 /* NjoftimetController.swift in Sources */,
+				CED61DF6244C6AB000A11C63 /* PDFController.swift in Sources */,
+				CE2D40E22457572400FE46BD /* LibraPopullor.swift in Sources */,
+				CE4EEDA4244A141E00CCA240 /* BrowseController.swift in Sources */,
+				CE3293E92448DA1B000DF0FF /* SceneDelegate.swift in Sources */,
+				CED0DB72244B03E0009FFAE8 /* QuotesController.swift in Sources */,
+				CE2D40E62457587C00FE46BD /* RelatedCollectionCell.swift in Sources */,
+				CE2D40A62456EE8E00FE46BD /* LibraTeknologji.swift in Sources */,
+				CE2D40DE2457332200FE46BD /* LibratAudio.swift in Sources */,
+				CED0DB74244B3419009FFAE8 /* AudioBookController.swift in Sources */,
+				CEBABE1A244A04E600D43620 /* SearchController.swift in Sources */,
+				CED0DB76244B3F6E009FFAE8 /* Konstantet.swift in Sources */,
+				CE2D40D424571CF900FE46BD /* LibraBiografi.swift in Sources */,
+				CE2D40D0245716A800FE46BD /* LibraPsikologji.swift in Sources */,
+				CECFB5DD245AD6240097675D /* PopulloreAudioCollectionCell.swift in Sources */,
+				CE3294082448F805000DF0FF /* TeRejatCollectionCell.swift in Sources */,
+				CE2D40DC2457325600FE46BD /* LibraAudioCell.swift in Sources */,
+				CEBABE182449E7DD00D43620 /* PopulloretCollectionCell.swift in Sources */,
+				CE3294002448DA98000DF0FF /* ListeLibrashModel.swift in Sources */,
+				CED0DB64244AF3A9009FFAE8 /* ShprehjeModel.swift in Sources */,
+				CE2D40CE245711AD00FE46BD /* LibraShkence.swift in Sources */,
+				CE53EB4C2458AED1004BD2E7 /* AlertView.swift in Sources */,
+				CE2D40CC24570FB700FE46BD /* LibraAkademike.swift in Sources */,
+				CE3293FB2448DA6B000DF0FF /* FeaturesController.swift in Sources */,
+				CE2D40A42456D95200FE46BD /* LibraBiznesKarriere.swift in Sources */,
+				CE2D40D224571B0D00FE46BD /* LibraFitnes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3293EC2448DA1B000DF0FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3293ED2448DA1B000DF0FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE3293F12448DA1E000DF0FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3293F22448DA1E000DF0FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3293F52448DA1E000DF0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE3293F62448DA1E000DF0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3293F82448DA1E000DF0FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206BE0191935B5822B774E89 /* Pods-Pocket Library.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pocket Library/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geraldnuraj1234.Pocket-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3293F92448DA1E000DF0FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965FF9D2EF3927DE42B98EA5 /* Pods-Pocket Library.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pocket Library/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.geraldnuraj1234.Pocket-Library";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3293DE2448DA1B000DF0FF /* Build configuration list for PBXProject "Pocket Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3293F52448DA1E000DF0FF /* Debug */,
+				CE3293F62448DA1E000DF0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3293F72448DA1E000DF0FF /* Build configuration list for PBXNativeTarget "Pocket Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3293F82448DA1E000DF0FF /* Debug */,
+				CE3293F92448DA1E000DF0FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3293DB2448DA1B000DF0FF /* Project object */;
+}

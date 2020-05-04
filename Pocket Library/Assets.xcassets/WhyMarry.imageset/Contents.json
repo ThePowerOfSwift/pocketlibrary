@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rsz_page11-1024px-jesse_lynch_williams_-_why_marrydjvu.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rsz_page11-1024px-jesse_lynch_williams_-_why_marrydjvu@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rsz_page11-1024px-jesse_lynch_williams_-_why_marrydjvu@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

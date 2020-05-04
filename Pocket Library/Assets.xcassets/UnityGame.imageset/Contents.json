@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rsz_61cx6pg-vrl.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rsz_61cx6pg-vrl@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rsz_61cx6pg-vrl@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

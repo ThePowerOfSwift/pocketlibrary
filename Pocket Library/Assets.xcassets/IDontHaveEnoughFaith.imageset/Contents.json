@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rsz_45619_1_ftc_dp.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rsz_45619_1_ftc_dp@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rsz_45619_1_ftc_dp@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

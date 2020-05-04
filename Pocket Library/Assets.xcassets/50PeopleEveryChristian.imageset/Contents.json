@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rsz_50_people_every_christian_should_know_1525822450_7f002181.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rsz_50_people_every_christian_should_know_1525822450_7f002181@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rsz_50_people_every_christian_should_know_1525822450_7f002181@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

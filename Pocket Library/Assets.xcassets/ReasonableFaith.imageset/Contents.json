@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rsz_reasonable-faith-william-lane-craig-d_nq_np_620831-mlm26447181499_112017-f.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rsz_reasonable-faith-william-lane-craig-d_nq_np_620831-mlm26447181499_112017-f@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rsz_reasonable-faith-william-lane-craig-d_nq_np_620831-mlm26447181499_112017-f@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

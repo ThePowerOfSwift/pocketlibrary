@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "rsz_december-2017-business-leadership-book.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "rsz_december-2017-business-leadership-book@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "rsz_december-2017-business-leadership-book@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
