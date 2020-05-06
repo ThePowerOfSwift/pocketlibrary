@@ -30,9 +30,9 @@ class DetajeAudioController: UIViewController {
     
     func konfiguroUI() {
         
-        view.karakteristikatEButonit(buton: butoniReadOutlet)
+        view.karakteristikaView(butoniReadOutlet)
         
-        view.karakteristikatView(view: fotoELibritOutlet)
+        view.karakteristikaView(fotoELibritOutlet)
         
         fotoELibritOutlet.image = fotojaEZgjedhur
         
@@ -70,7 +70,7 @@ class DetajeAudioController: UIViewController {
             
             if FileManager.default.fileExists(atPath: destinationUrl.path) {
                 
-                AlertView.shfaqParalajmerim()
+                AlertView.shfaqParalajmerim(tekst: "Sound file exists.")
                 
                 
             } else {
@@ -83,7 +83,7 @@ class DetajeAudioController: UIViewController {
                         
                         DispatchQueue.main.async {
                             
-                            AlertView.sukses()
+                            AlertView.sukses(tekst: "Audio file was downloaded successfully.")
                             
                         }
                         

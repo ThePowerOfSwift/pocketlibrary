@@ -6,18 +6,76 @@ import ImageIO
 
 extension UIView {
     
+    //MARK: - Autolayout
     
-    func karakteristikatEButonit(buton: UIButton) {
+    func anchor(top: NSLayoutYAxisAnchor? = nil,
+                bottom: NSLayoutYAxisAnchor? = nil,
+                left: NSLayoutXAxisAnchor? = nil,
+                right: NSLayoutXAxisAnchor? = nil,
+                paddingTop: CGFloat = 0,
+                paddingBottom: CGFloat = 0,
+                paddingLeft: CGFloat = 0 ,
+                paddingRight: CGFloat = 0,
+                width: CGFloat? = nil,
+                height: CGFloat? = nil)  {
         
-        buton.layer.cornerRadius = 10
+        translatesAutoresizingMaskIntoConstraints = false
         
-        buton.layer.shadowColor = UIColor.brown.cgColor
+        if let top = top {
+            
+            topAnchor.constraint(equalTo: top, constant: paddingTop).isActive = true
+            
+        }
         
-        buton.layer.shadowOpacity = 0.7
+        if let bottom = bottom {
+            
+            bottomAnchor.constraint(equalTo: bottom, constant: paddingBottom).isActive = true
+            
+        }
         
-        buton.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+        if let left = left {
+            
+            leftAnchor.constraint(equalTo: left, constant: paddingLeft).isActive = true
+            
+        }
         
-        buton.layer.masksToBounds = false
+        if let right = right {
+            
+            rightAnchor.constraint(equalTo: right, constant: paddingRight).isActive = true
+            
+        }
+        
+        
+        if let width = width {
+            
+            widthAnchor.constraint(equalToConstant: width).isActive = true
+            
+        }
+        
+        if let height = height {
+            
+            heightAnchor.constraint(equalToConstant: height).isActive = true
+            
+        }
+        
+        
+    }
+    
+    
+    //MARK: - Karakteristika
+    
+    func karakteristikaView<T:UIView> (_ element: T) {
+        
+        element.layer.cornerRadius = 10
+        
+        element.layer.shadowColor = UIColor.brown.cgColor
+        
+        element.layer.shadowOpacity = 0.7
+        
+        element.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
+        
+        element.layer.masksToBounds = false
+        
         
     }
     
@@ -30,22 +88,6 @@ extension UIView {
         collectionView.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
         
         collectionView.layer.masksToBounds = false
-        
-    }
-    
-    
-    func karakteristikatView(view: UIView) {
-        
-        view.layer.cornerRadius = 10
-        
-        view.layer.shadowColor = UIColor.brown.cgColor
-        
-        view.layer.shadowOpacity = 0.7
-        
-        view.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-        
-        view.layer.masksToBounds = false
-        
         
     }
     
@@ -63,10 +105,17 @@ extension UIView {
         foto.clipsToBounds = true
     }
     
+    
+    func karakteristikaPlaceholder(fushaETekstit: UITextField, teksti: String) {
+        
+        fushaETekstit.attributedPlaceholder = NSAttributedString(string: teksti,
+                                                                 attributes: [NSAttributedString.Key.foregroundColor: UIColor(cgColor: #colorLiteral(red: 0.6078431373, green: 0.6078431373, blue: 0.6078431373, alpha: 1))])
+        
+    }
+    
 }
 
-
-//MARK: - UIImage GIF
+//MARK: - UIImage
 
 fileprivate func < <T : Comparable>(lhs: T?, rhs: T?) -> Bool {
     switch (lhs, rhs) {

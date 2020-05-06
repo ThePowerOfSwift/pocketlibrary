@@ -14,7 +14,6 @@ class FeaturesController: UIViewController {
     @IBOutlet weak var fotoGeorgeMartin: UIImageView!
     @IBOutlet weak var butoniQuoteOutlet: UIButton!
     
-    
     var titull: String = ""
     
     var foto: UIImage = #imageLiteral(resourceName: "fotoMotivuese")
@@ -62,19 +61,19 @@ class FeaturesController: UIViewController {
         
         view.karakteristikatEFotos(foto: fotoGeorgeMartin)
         
-        view.karakteristikatView(view: shprehjeView)
+        view.karakteristikaView(shprehjeView)
         
         view.karakteristikatCollView(collectionView: collectionView1)
         
         view.karakteristikatCollView(collectionView: collectionView2)
         
-        view.karakteristikatEButonit(buton: butoniQuoteOutlet)
+        view.karakteristikaView(butoniQuoteOutlet)
         
         collectionView1.allowsMultipleSelection = false
         
-        collectionView1.allowsMultipleSelection = false
+        collectionView2.allowsMultipleSelection = false
         
-        collectionView1.allowsMultipleSelection = false
+        collectionView3.allowsMultipleSelection = false
         
     }
     
@@ -83,7 +82,7 @@ class FeaturesController: UIViewController {
     
     @objc func shfaqInformacion() {
         
-        AlertView.shfaqInfo()
+        AlertView.shfaqInfo(tekst: "Can't find the book that you want?! Click on My Book, fill the form and we will upload it on the app for you 😃.")
         
     }
     
@@ -175,7 +174,7 @@ extension FeaturesController: UICollectionViewDataSource, UICollectionViewDelega
             autor = libratMePopullor[indexPath.row].autoriLibrit
             
             numriFaqeve = libratMePopullor[indexPath.row].numriFaqeve
-        
+            
             self.performSegue(withIdentifier: K.shkoTekPdfEPlote, sender: self)
             
         }
@@ -198,6 +197,8 @@ extension FeaturesController: UICollectionViewDataSource, UICollectionViewDelega
         
     }
     
+    //MARK: - Segue
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == K.shkoTekAudioEPlote {
@@ -215,7 +216,7 @@ extension FeaturesController: UICollectionViewDataSource, UICollectionViewDelega
             destinacionAudio.url = url
             
         }
-        
+            
         else  if segue.identifier == K.shkoTekPdfEPlote {
             
             let destinacionPDF = segue.destination as! PDFController

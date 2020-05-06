@@ -4,11 +4,11 @@ import SCLAlertView
 
 struct AlertView {
     
-    static func shfaqParalajmerim() {
+    static func shfaqParalajmerim(tekst: String) {
         
         SCLAlertView().showTitle(
             "Warning",
-            subTitle: "Sound file exists.",
+            subTitle: tekst,
             timeout: nil,
             completeText: "Close",
             style: .warning,
@@ -18,11 +18,13 @@ struct AlertView {
         
     }
     
-    static func sukses() {
+    
+    
+    static func sukses(tekst: String) {
         
         SCLAlertView().showTitle(
             "Success",
-            subTitle: "The audio file was downloaded successfully.",
+            subTitle: tekst,
             timeout: nil,
             completeText: "Close",
             style: .success,
@@ -32,11 +34,13 @@ struct AlertView {
         
     }
     
-    static func shfaqInfo() {
+    
+    
+    static func shfaqInfo(tekst: String) {
         
         SCLAlertView().showTitle(
-            "Information",
-            subTitle: "Order your book.",
+            "Notification",
+            subTitle: tekst,
             timeout: nil,
             completeText: "OK",
             style: .info,
@@ -44,6 +48,19 @@ struct AlertView {
             colorTextButton: 0x000000
         )
         
+    }
+    
+    static func shfaqGabim(tekst: String) {
+        
+        SCLAlertView().showTitle(
+            "Error",
+            subTitle: tekst,
+            timeout: nil,
+            completeText: "OK",
+            style: .error,
+            colorStyle: 0xFF0000,
+            colorTextButton: 0x000000
+        )
         
     }
     

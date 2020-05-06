@@ -35,25 +35,25 @@ class BrowseController: UIViewController {
     
     func konfiguroUI() {
         
-        view.karakteristikatEButonit(buton: butoniBusiness)
+        view.karakteristikaView(butoniBusiness)
         
-        view.karakteristikatEButonit(buton: butoniZhvillimPersonal)
+        view.karakteristikaView(butoniZhvillimPersonal)
         
-        view.karakteristikatEButonit(buton: butoniEdukim)
+        view.karakteristikaView(butoniEdukim)
         
-        view.karakteristikatEButonit(buton: butoniShkence)
+        view.karakteristikaView(butoniShkence)
         
-        view.karakteristikatEButonit(buton: butoniPsikologji)
+        view.karakteristikaView(butoniPsikologji)
         
-        view.karakteristikatEButonit(buton: butoniFitnes)
+        view.karakteristikaView(butoniFitnes)
         
-        view.karakteristikatEButonit(buton: butoniTeoriKonspiracioni)
+        view.karakteristikaView(butoniTeoriKonspiracioni)
         
-        view.karakteristikatEButonit(buton: butoniBiografi)
+        view.karakteristikaView(butoniBiografi)
         
-        view.karakteristikatEButonit(buton: butoniReligion)
+        view.karakteristikaView(butoniReligion)
         
-        view.karakteristikatEButonit(buton: butoniTeknologji)
+        view.karakteristikaView(butoniTeknologji)
         
     }
     

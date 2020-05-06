@@ -13,7 +13,7 @@ class PDFController: UIViewController {
     @IBOutlet weak var autoriLibritOutlet: UILabel!
     @IBOutlet weak var numriFaqeveOutlet: UILabel!
     @IBOutlet weak var butoniReadOutlet: UIButton!
-
+    
     
     var fotojaEZgjedhur: UIImage = #imageLiteral(resourceName: "fotoEPare")
     
@@ -46,9 +46,9 @@ class PDFController: UIViewController {
         
         numriFaqeveOutlet.text = "Pages:  \(numer)"
         
-        view.karakteristikatEButonit(buton: butoniReadOutlet)
+        view.karakteristikaView(butoniReadOutlet)
         
-        view.karakteristikatView(view: fotoELibritOutlet)
+        view.karakteristikaView(fotoELibritOutlet)
         
         self.navigationItem.title = titulliZgjedhur
         
@@ -80,17 +80,9 @@ class PDFController: UIViewController {
         
         self.navigationItem.title = titulliZgjedhur
         
-        pdfView.translatesAutoresizingMaskIntoConstraints = false
-        
         view.addSubview(pdfView)
         
-        pdfView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        
-        pdfView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        
-        pdfView.topAnchor.constraint(equalTo: view.topAnchor).isActive = true
-        
-        pdfView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
+        pdfView.anchor(top: view.topAnchor, bottom: view.bottomAnchor, left: view.leftAnchor, right: view.rightAnchor)
         
         guard let path = Bundle.main.url(forResource: titulliZgjedhur, withExtension: "pdf") else { return }
         
@@ -99,8 +91,6 @@ class PDFController: UIViewController {
         }
         
     }
-    
-  
     
 }
 

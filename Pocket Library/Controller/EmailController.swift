@@ -3,14 +3,52 @@
 import UIKit
 import MessageUI
 
-class EmailController: UIViewController {
+class EmailController: UIViewController, UITextFieldDelegate {
+    
+    //MARK: - Karakteristika
+    
+    @IBOutlet weak var emri: UITextField!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var titulliLibrit: UITextField!
+    @IBOutlet weak var autoriLibrit: UITextField!
+    @IBOutlet weak var llojiLibrit: UITextField!
+    @IBOutlet weak var butoniSendOutlet: UIButton!
+    
     
     //MARK: - Lifecycle i app - it
     
     override func viewDidLoad() {
         
+        karakteristikaUI()
         
     }
+    
+    
+    func karakteristikaUI() {
+        
+        view.karakteristikaPlaceholder(fushaETekstit: emri, teksti: "Your Name")
+        
+        view.karakteristikaPlaceholder(fushaETekstit: email, teksti: "Email")
+        
+        view.karakteristikaPlaceholder(fushaETekstit: titulliLibrit, teksti: "Book Title")
+        
+        view.karakteristikaPlaceholder(fushaETekstit: autoriLibrit, teksti: "Book Author")
+        
+        view.karakteristikaPlaceholder(fushaETekstit: llojiLibrit, teksti: "Book Type (Ex. Audiobook / PDF Book)")
+        
+        view.karakteristikaView(butoniSendOutlet)
+        
+        
+    }
+    
+    @IBAction func butoniSendAction(_ sender: UIButton) {
+        
+        dergoEmail()
+        
+        boshatisFushatETekstit()
+        
+    }
+    
     
     //MARK: - Dergimi i email
     
@@ -20,13 +58,29 @@ class EmailController: UIViewController {
         
         mc.mailComposeDelegate = self
         
-        mc.setToRecipients(["gerinuraj2506@gmail.com"]) // emaili i marresit
+        mc.setToRecipients(["gerinuraj2506@gmail.com"])
         
-        mc.setSubject("Ketu eshte titulli i librit") // titulli i librit
+        mc.setSubject(titulliLibrit.text!)
         
-        mc.setMessageBody("Ketu do te jene inputet e perdoruesit", isHTML: false) //detajet nga format e kontaktit
+        mc.setMessageBody("Name: \(emri.text!) \n\n Email: \(email.text!) \n\n Book Title: \(titulliLibrit.text!) \n\n Book Author: \(autoriLibrit.text!) \n\n Book Type: \(llojiLibrit.text!) \n\n", isHTML: false) 
         
         present(mc, animated: true)
+        
+    }
+    
+    //MARK: - Boshatis fushat e tekstit
+    
+    func boshatisFushatETekstit() {
+        
+        emri.text! = ""
+        
+        email.text! = ""
+        
+        titulliLibrit.text! = ""
+        
+        autoriLibrit.text! = ""
+        
+        llojiLibrit.text! = ""
         
     }
     
@@ -54,19 +108,19 @@ extension EmailController: MFMailComposeViewControllerDelegate {
             
         case .cancelled:
             
-            print("Cancelled")
+            AlertView.shfaqInfo(tekst: "Cancelled")
             
         case .failed:
             
-            print("Failed")
+            AlertView.shfaqGabim(tekst: "Email failed to send.")
             
         case .saved:
             
-            print("Saved")
+            AlertView.shfaqInfo(tekst: "Saved")
             
         case .sent:
             
-            print("Sent")
+            AlertView.sukses(tekst: "Email was sent successfully.")
             
         default:
             

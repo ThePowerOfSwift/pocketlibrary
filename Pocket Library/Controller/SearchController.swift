@@ -21,18 +21,9 @@ class SearchController: UIViewController {
         
         fushaETekstitKerko.placeholder = "Search for a book or an author"
         
-        fushaETekstitKerko.layer.cornerRadius = 10
-        
-        fushaETekstitKerko.layer.shadowColor = UIColor.brown.cgColor
-        
-        fushaETekstitKerko.layer.shadowOpacity = 0.7
-        
-        fushaETekstitKerko.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
-        
-        fushaETekstitKerko.layer.masksToBounds = false
+        view.karakteristikaView(fushaETekstitKerko)
         
     }
-    
     
 }
 

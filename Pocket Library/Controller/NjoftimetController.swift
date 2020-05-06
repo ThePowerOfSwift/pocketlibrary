@@ -83,15 +83,14 @@ class NjoftimetController: UIViewController {
     
     func shfaqFotonGIF() {
         
-         let imageData = try? Data(contentsOf: Bundle.main.url(forResource: "njoftimet", withExtension: "gif")!)
-         let advTimeGif = UIImage.gifImageWithData(imageData!)
-         
-         let imageView2 = UIImageView(image: advTimeGif)
-         
-         imageView2.frame = CGRect(x: 20.0, y: 100.0, width:
-         self.view.frame.size.width - 40, height: 150.0)
-         
-         view.addSubview(imageView2)
+        let imageData = try? Data(contentsOf: Bundle.main.url(forResource: "njoftimet", withExtension: "gif")!)
+        let advTimeGif = UIImage.gifImageWithData(imageData!)
+        
+        let imageView2 = UIImageView(image: advTimeGif)
+        
+        view.addSubview(imageView2)
+        
+        imageView2.anchor(top: view.safeAreaLayoutGuide.topAnchor, left: view.safeAreaLayoutGuide.leftAnchor, right: view.safeAreaLayoutGuide.rightAnchor, paddingTop: 20, paddingLeft: 50, paddingRight: -50, height: 150)
         
     }
 }

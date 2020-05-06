@@ -7,6 +7,7 @@ target 'Pocket Library' do
 
   # Pods for Pocket Library
 
+   pod 'IQKeyboardManagerSwift'
    pod 'SCLAlertView'
-
+   
 end
