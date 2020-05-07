@@ -44,7 +44,7 @@ class FeaturesController: UIViewController {
         
         kofiguroUI()
         
-        Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(shfaqInformacion), userInfo: nil, repeats: false)
+    //    Timer.scheduledTimer(timeInterval: 4.0, target: self, selector: #selector(shfaqInformacion), userInfo: nil, repeats: false)
         
     }
     
@@ -77,16 +77,20 @@ class FeaturesController: UIViewController {
         
     }
     
-    
+}
     //MARK: - PopUp Informacion
     
-    @objc func shfaqInformacion() {
-        
-        AlertView.shfaqInfo(tekst: "Can't find the book that you want?! Click on My Book, fill the form and we will upload it on the app for you 😃.")
-        
-    }
-    
-}
+   /*
+     
+      @objc func shfaqInformacion() {
+             
+             AlertView.shfaqInfo(tekst: "Can't find the book that you want?! Click on My Book, fill the form and we will upload it on the app for you 😃.")
+             
+         }
+         
+     }
+     
+     */
 
 
 //MARK: - UICollectionViewDelegate

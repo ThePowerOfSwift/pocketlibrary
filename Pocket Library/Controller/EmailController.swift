@@ -41,6 +41,19 @@ class EmailController: UIViewController, UITextFieldDelegate {
         
     }
     
+    
+    override open var shouldAutorotate: Bool {
+        
+       return false
+    }
+    
+    
+    override open var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        
+       return .portrait
+    }
+    
+    
     @IBAction func butoniSendAction(_ sender: UIButton) {
         
         dergoEmail()

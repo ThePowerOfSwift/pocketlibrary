@@ -1,20 +1,24 @@
 PODS:
+  - DateTimePicker (2.3.1)
   - IQKeyboardManagerSwift (6.5.5)
   - SCLAlertView (0.8)
 
 DEPENDENCIES:
+  - DateTimePicker
   - IQKeyboardManagerSwift
   - SCLAlertView
 
 SPEC REPOS:
   trunk:
+    - DateTimePicker
     - IQKeyboardManagerSwift
     - SCLAlertView
 
 SPEC CHECKSUMS:
+  DateTimePicker: 678d94f4ed27643db6be3381fff6296953dda0c1
   IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
 
-PODFILE CHECKSUM: b3449a21ef5bacb0d0cf8aa9739c97a0f7633893
+PODFILE CHECKSUM: dbe81b0df13a8c545f0fac7701cb4b634e614bb0
 
 COCOAPODS: 1.9.1

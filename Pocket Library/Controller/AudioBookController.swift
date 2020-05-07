@@ -14,7 +14,6 @@ class AudioBookController: UIViewController {
         
         super.viewDidLoad()
         
-        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -33,7 +32,6 @@ class AudioBookController: UIViewController {
 //MARK: - Table View
 
 extension AudioBookController: UITableViewDataSource, UITableViewDelegate {
-    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         

@@ -52,8 +52,6 @@ extension SearchController: UISearchBarDelegate {
             
         }
         
-        
     }
-    
     
 }

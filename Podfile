@@ -6,7 +6,8 @@ target 'Pocket Library' do
   use_frameworks!
 
   # Pods for Pocket Library
-
+    
+   pod 'DateTimePicker'
    pod 'IQKeyboardManagerSwift'
    pod 'SCLAlertView'
    
