@@ -20,8 +20,6 @@ struct LibraTeknologji {
         
         ListeLibrashModel(fotojaELibrit: UIImage(named: "BeginningAndroidApplication")!, autoriLibrit: "Wei-Meng Lee", titulliLibrit: "Beginning Android Application", numriFaqeve: 450),
         
-        ListeLibrashModel(fotojaELibrit: UIImage(named: "CodingInterview")!, autoriLibrit: "Gayle Laakmann McDowell", titulliLibrit: "CRACKING the CODING INTERVIEW", numriFaqeve: 780),
-        
          ListeLibrashModel(fotojaELibrit: UIImage(named: "UnityGame")!, autoriLibrit: "Lee Zhi Eng", titulliLibrit: "Building a Game with Unity and Blender", numriFaqeve: 250)
         
     ]

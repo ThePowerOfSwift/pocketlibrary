@@ -22,7 +22,6 @@
 		CE066D46245B1055009A7D45 /* JavaScript.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D45245B1055009A7D45 /* JavaScript.pdf */; };
 		CE066D48245B11CB009A7D45 /* Digital Logic And Computer Design.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D47245B11CB009A7D45 /* Digital Logic And Computer Design.pdf */; };
 		CE066D4A245B139E009A7D45 /* Beginning Android Application.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D49245B139D009A7D45 /* Beginning Android Application.pdf */; };
-		CE066D4C245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D4B245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf */; };
 		CE066D4E245B201C009A7D45 /* Building a Game with Unity and Blender.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D4D245B201C009A7D45 /* Building a Game with Unity and Blender.pdf */; };
 		CE066D50245B22EF009A7D45 /* The Power of Now.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D4F245B22EF009A7D45 /* The Power of Now.pdf */; };
 		CE066D53245B2426009A7D45 /* What on Earth Am I Here For?.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CE066D52245B2426009A7D45 /* What on Earth Am I Here For?.pdf */; };
@@ -151,7 +150,6 @@
 		CE066D45245B1055009A7D45 /* JavaScript.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = JavaScript.pdf; sourceTree = "<group>"; };
 		CE066D47245B11CB009A7D45 /* Digital Logic And Computer Design.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Digital Logic And Computer Design.pdf"; sourceTree = "<group>"; };
 		CE066D49245B139D009A7D45 /* Beginning Android Application.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Beginning Android Application.pdf"; sourceTree = "<group>"; };
-		CE066D4B245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "CRACKING the CODING INTERVIEW.pdf"; sourceTree = "<group>"; };
 		CE066D4D245B201C009A7D45 /* Building a Game with Unity and Blender.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Building a Game with Unity and Blender.pdf"; sourceTree = "<group>"; };
 		CE066D4F245B22EF009A7D45 /* The Power of Now.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Power of Now.pdf"; sourceTree = "<group>"; };
 		CE066D52245B2426009A7D45 /* What on Earth Am I Here For?.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "What on Earth Am I Here For?.pdf"; sourceTree = "<group>"; };
@@ -331,7 +329,6 @@
 				CE066D3C245B0AB1009A7D45 /* Zero to One,How to Build the Future.pdf */,
 				CE066D3F245B0C96009A7D45 /* Hacking For Dummies, 3rd Edition.pdf */,
 				CE066D45245B1055009A7D45 /* JavaScript.pdf */,
-				CE066D4B245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf */,
 				CE066D49245B139D009A7D45 /* Beginning Android Application.pdf */,
 				CE066D4D245B201C009A7D45 /* Building a Game with Unity and Blender.pdf */,
 				CE066D41245B0D11009A7D45 /* HTML & CSS.pdf */,
@@ -724,7 +721,6 @@
 				CE066D46245B1055009A7D45 /* JavaScript.pdf in Resources */,
 				CE8E0AAC245C28AD0039C6FD /* Masonic Secrets Revealed - Secrets of the Masons.pdf in Resources */,
 				CE8E0AB8245C30780039C6FD /* Absolute Key To Occult Science, The Tarot Of The Bohemians.pdf in Resources */,
-				CE066D4C245B1DD1009A7D45 /* CRACKING the CODING INTERVIEW.pdf in Resources */,
 				CED7FE21245B6171008477F4 /* Yoga Poses, Postures & Yoga Exercises.pdf in Resources */,
 				CED7FE1A245B5E9D008477F4 /* Your Brain On Food.pdf in Resources */,
 				CED7FE0C245B4A4A008477F4 /* Body Language Secrets A Guide During Courtship & Dating.pdf in Resources */,
